@@ -1,0 +1,16 @@
+/* Custom styles for keyframe animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animated-fade-in {
+  animation: fadeIn 5s ease-in-out;
+}
+/*duration (5s for 5 seconds), 
+/timing function (ease-in-out for a smooth start and end),
+/ and other optional animation properties (not specified here).*/
